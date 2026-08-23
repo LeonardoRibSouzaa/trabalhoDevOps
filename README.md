@@ -45,6 +45,14 @@ trabalhoDevOps/
 ### Como Rodar o Projeto
 [clique aqui]()
 
+## Branches
+***
+- **`main`** — versão estável do projeto.
+- **`desenvolvimento`** — intergração das funcionalidas antes de chegar à **`main`**.
+- **`feat/frontend`** — desenvolvimento da interface React.
+- **`feat/docker`** — configuração do Docker.
+- **`feat/readme`** — documentação e organização do README.
+
 ## Licença
 ***
 Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE]() para mais detalhes.
