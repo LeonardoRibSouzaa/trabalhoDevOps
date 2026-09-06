@@ -34,17 +34,17 @@ jobs:
         with:
           name: build-react
           path: dist/
-#  validar-docker:
-#    name: Validar container Docker
-#    needs: build-react
-#    runs-on: ubuntu-latest
-#
-#    steps:
-#      - name: Baixar código
-#        uses: actions/checkout@v4
-#
-#      - name: Validar configuração Docker Compose
-#        run: docker compose config
-#
-#      - name: Criar imagem Docker
-#        run: docker build -t trabalho-devops:${{ github.sha }} .
+  validar-docker:
+    name: Validar container Docker
+    needs: build-react
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Baixar código
+        uses: actions/checkout@v4
+
+      - name: Validar configuração Docker Compose
+        run: docker compose config
+
+      - name: Criar imagem Docker
+        run: docker build -t trabalho-devops:${{ github.sha }} .
