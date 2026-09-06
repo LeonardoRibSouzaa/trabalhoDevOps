@@ -43,7 +43,20 @@ trabalhoDevOps/
 - Docker
 
 ### Como Rodar o Projeto
-[clique aqui]()
+**Opção 1: localmente**
+```bash
+git clone https://github.com/LeonardoRibSouzaa/trabalhoDevOps.git
+cd trabalhoDevOps
+npm install
+npm run dev
+```
+A aplicação ficará disponível em http://localhost:5173
+
+**Opção 2: via Docker**
+```bash
+docker compose up --build
+```
+A aplicação ficará disponível em http://localhost:8080
 
 ## Branches
 ***
