@@ -71,7 +71,7 @@ A aplicação ficará disponível em http://localhost:8080
 Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE]() para mais detalhes.
 ## Versão
 ***
-**v0.0.1**
+**v1.0.0**
 ___
 ## Equipe
 ***
