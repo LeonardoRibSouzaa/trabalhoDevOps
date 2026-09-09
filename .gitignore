@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Evidências (prints) para o relatório final — não faz parte do código do projeto
+evidencias/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

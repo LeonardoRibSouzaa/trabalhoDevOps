@@ -1,2 +1,7 @@
 services:
-  
+  frontend:
+    build: .
+    container_name: trabalho-devops-frontend
+    ports:
+      - "8080:80"
+    restart: unless-stopped
