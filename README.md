@@ -27,6 +27,7 @@ pela empresa.
 
 ## Estrutura do Projeto
 
+```
 trabalhoDevOps/
 ├── .github/
 │   └── workflows/
@@ -53,6 +54,7 @@ trabalhoDevOps/
 ├── tsconfig.node.json        # Configuração do TypeScript para ferramentas
 ├── vite.config.ts            # Configuração do Vite
 └── README.md                 # Documentação principal
+```
 
 ## Como instalar
 ***
@@ -63,46 +65,50 @@ trabalhoDevOps/
 - Docker
 
 ### Como Rodar o Projeto
+
 **Opção 1: localmente**
+
 ```bash
 git clone https://github.com/LeonardoRibSouzaa/trabalhoDevOps.git
 cd trabalhoDevOps
 npm install
 npm run dev
+```
+
 A aplicação ficará disponível em http://localhost:5173
 
-Opção 2: via Docker
+**Opção 2: via Docker**
+
+```bash
 docker compose up --build
+```
+
 A aplicação ficará disponível em http://localhost:8080
 
-Branches
+## Branches
+***
+- **`main`** — versão estável do projeto.
+- **`desenvolvimento`** — integração das funcionalidades antes de chegar à **`main`**.
+- **`feat/frontend`** — desenvolvimento da interface React.
+- **`feat/docker`** — configuração do Docker.
+- **`docs/readme`** — documentação e organização do README.
 
----
-- main — versão estável do projeto.
-- desenvolvimento — integração das funcionalidades antes de chegar à main.
-- feat/frontend — desenvolvimento da interface React.
-- feat/docker — configuração do Docker.
-- docs/readme — documentação e organização do README.
+Fluxo de trabalho: branch de feature → Pull Request para `desenvolvimento` → Pull Request de `desenvolvimento` para `main`.
 
-Fluxo de trabalho: branch de feature → Pull Request para desenvolvimento → Pull Request de desenvolvimento para main.
+## Licença
+***
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-Licença
+## Versão
+***
+**v1.0.0**
 
----
-Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
+___
 
-Versão
-
----
-v1.0.0
-
----
-
-Equipe
-
----
-
-
-- Leonardo Ribeiro Souza      
-- Enrico Bertolucci           
-- Luiz Henrique Barbosa Brito 
+## Equipe
+***
+| Nome                            |
+|---------------------------------|
+| **Leonardo Ribeiro Souza**      |
+| **Enrico Bertolucci**           |
+| **Luiz Henrique Barbosa Brito** |
